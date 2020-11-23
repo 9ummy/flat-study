@@ -4,32 +4,63 @@
   <title>WEB</title>
   <meta charset="utf-8">
   <style>
+    img {
+      width:200px;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
     a {
-      color: orange;
-      text-decoration: none;
+      text-decoration:none;
+      color:black;
     }
+
     h1 {
+      color:orange;
       text-align:center;
-      font-size: 45px;
-    }
-    .saw {
-      color: grey;
+      font-size: 60px;
+      text-decoration:none;
     }
 
-    .active {
-      color: pink;
+    ol {
+      margin-top: 20px;
+      padding-left: 30px;
+    }
+
+    h2 {
+      margin-top: 15px;
+    }
+
+    #now {
+        font-weight:bold;
+    }
+
+    #grid {
+      display:grid;
+      grid-template-columns: 150px 1fr;
 
     }
+    
   </style>
 </head>
 <body>
-<h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html" class="saw">HTML</a></li>
-  <li><a href="2.html" class="saw active">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-<img src="gummybear.jpg" width=20%>
+  <a href="index.html"><h1>WEB</h1></a>
+  <img src= "gummybear.jpg">
 
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+
+    <div>
+      <h2>Web</h2>
+      <p>
+        The World Wide Web (WWW), commonly known as the Web, is an information system where documetns and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/ ), which may be interlinked by hypertext, and are accessible over the Internet.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
